@@ -25,6 +25,7 @@ alias moon='curl wttr.in/moon'
 alias wea='curl wttr.in'
 alias apush='cd ~ && openrsync -avr --delete ~/Documents/aklas/public/ oqolarte_aklas@ssh.phx.nearlyfreespeech.net:/home/public/'
 alias nurls='nvim ~/.newsboat/urls'
+alias gits='git status'
 
 # show contents of dir after changing to it
 function cd {
