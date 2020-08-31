@@ -16,7 +16,7 @@ alias kshrc='nvim ~/.kshrc'
 alias python='python3.7'
 alias cnoob='cd ~/Documents/Projects/C\ NoobFiles/'
 alias pynoob='cd ~/Documents/Projects/Python\ NoobFiles/'
-alias zxcv='doas shutdown -ph now'
+alias zxcv='doas shutdown -fph now'
 alias qwer='doas reboot'
 alias aklas='cd ~/Documents/aklas/'
 alias hugo='hugo --cleanDestinationDir'
@@ -24,6 +24,7 @@ alias hs='hugo server'
 alias moon='curl wttr.in/moon'
 alias wea='curl wttr.in'
 alias apush='cd ~ && openrsync -avr --delete ~/Documents/aklas/public/ oqolarte_aklas@ssh.phx.nearlyfreespeech.net:/home/public/'
+alias nurls='nvim ~/.newsboat/urls'
 
 # show contents of dir after changing to it
 function cd {

@@ -30,6 +30,9 @@ xinput set-prop /dev/wsmouse 'Device Accel Constant Deceleration' 0.4
 # disable system beep
 xset -b off
 
+# start zerohosts (suckless surf adblocking)
+/usr/local/sbin/zerohosts &
+
 # start dwm and slstatus
 /usr/local/bin/dwm
 /usr/local/bin/slstatus
