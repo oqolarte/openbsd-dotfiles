@@ -27,6 +27,11 @@ xinput set-prop /dev/wsmouse 'WS Pointer Wheel Emulation Timeout' 250
 # increase pointer speed
 xinput set-prop /dev/wsmouse 'Device Accel Constant Deceleration' 0.4
 
+# dmenu caches stuff, refresh on every session
+rm -f ~/.cache/dmenu_run
+# and make sure it sees everything in ~/bin
+export PATH="$HOME/bin:$PATH"
+
 # disable system beep
 xset -b off
 
